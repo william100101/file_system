@@ -1,0 +1,16 @@
+first_fit: This was a function that I used to implement the first_fit algorithm for allocation. It is one of the options that that be selected to
+by changing the "policy" value in allocate and returns a void* to the allocated memory's data value (acting as address).
+
+best_fit: This was a function that I used to implement the best_fit algorithm for allocation. It is one of the options that that be selected to
+by changing the "policy" value in allocate and returns a void* to the allocated memory's data value (acting as address).
+
+worst_fit: This was a function that I used to implement the worst_fit algorithm for allocation. It is one of the options that that be selected to
+by changing the "policy" value in allocate and returns a void* to the allocated memory's data value (acting as address).
+
+dlist_find_memory: This is a function that I wrote in order to pull out the size_t memory value of a specific memory block. I used this when adding back memory to the free list in 
+deallocate.
+
+dlist_find_memory_reduce: This is a function that goes into a dlist and subtracts a specific memory block's memory value by some given size_t value. I used this in best_fit and worst_fit
+respetively in order to mimic taking away memory from a continous block.
+
+memory_test_2.c: This was a more stripped down file I wrote for testing my allocator.
